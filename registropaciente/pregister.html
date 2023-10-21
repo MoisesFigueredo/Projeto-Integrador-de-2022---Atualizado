@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptP.js" defer></script>
+    <title>Registro Paciente - AgendaÊ</title>
+</head>
+
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="Camada 2.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="../login/login.html">Login</a></button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Nome completo</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <div class="birth-date">
+                            <label for="bdate">Data de nascimento</label>
+                            <input id="bdate" type="date" name="bdate" required min="1900-01-01" max="2022-01-01">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="cpf">CPF</label>
+                            <input id="cpf" type="text" name="cpf" placeholder="Digite sem espaços e pontos" minlength="14" maxlength="14" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="sus">N° Cartão do SUS</label>
+                            <input id="sus" type="text" name="sus" placeholder="Digite sem espaços e pontos" required>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx"  minlength="11" maxlength="11" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="confirmPassword">Confirme sua Senha</label>
+                            <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                        </div>
+
+                    </div>
+
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input id="female" type="radio" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input id="male" type="radio" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input id="others" type="radio" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input id="none" type="radio" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="continue-button">
+                            <button><a href="../login/login.html">Continuar</a> </button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

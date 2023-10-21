@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendarstyle.css">
+    <title>Cadastro Agendamento - AgendaÊ</title>
+</head>
+
+    <body>
+        <div class="container">
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastro de Agendamento</h1>
+                        </div>
+                    </div>
+
+                        <div class="input-group">
+                            <div class="input-box">
+                                <label for="nomeatdm">Nome do Atendimento</label>
+                                <input id="nomeatdm" type="text" name="nomeatdm" placeholder="Nome do atendimento" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="descricao">Descrição </label>
+                                <input id="descricao" type="text" name="descricao" placeholder="Descrição" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="pnumber">Telefone</label>
+                                <input id="pnumber" type="tel" name="pnumber" placeholder="(xx) xxxxx-xxxx" required>
+                            </div>
+
+                            <div class="custom-select-atdm">
+                                <label for="hratdm">Horário de Atendimento</label>
+                                <select required>
+                                    <option value="">Selecione o Horário</option>
+                                    <option value="08">08:00h</option>
+                                    <option value="09">09:00h</option>
+                                    <option value="10">10:00h</option>
+                                    <option value="11">11:00h</option>
+                                    <option value="14">14:00h</option>
+                                    <option value="15">15:00h</option>
+                                    <option value="16">16:00h</option>
+                                </select>
+                            </div>
+                            <div class="input-box">
+                                <label for="localatd">Local do atendimento</label>
+                                <input id="localatd" type="text" name="localatd" placeholder="Insira o local de atendimento" required>
+                            </div>
+
+                            <div class="custom-select">
+                                <label for="ufh">Atendimento</label>
+                                <select required>
+                                    <option value="">Selecione o atendimento</option>
+                                    <option value="consulta">Consulta</option>
+                                    <option value="exame">Exame</option>
+                                    
+                                </select>
+                            </div>
+                            
+                        </div>
+                    
+                    <div class="continue-button">
+                        <button id = 'Agendar'><a href="#">Agendar</a> </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

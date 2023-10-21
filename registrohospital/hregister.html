@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hstyle.css">
+    <script src="scriptH.js" defer></script>
+    <title>Registro Hospital - AgendaÊ</title>
+</head>
+
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="Camada 2.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            <button><a href="../login/login.html">Login</a></button>
+                        </div>
+                    </div>
+
+                        <div class="input-group">
+                            <div class="input-box">
+                                <label for="nhospital">Nome do Hospital</label>
+                                <input id="nhospital" type="text" name="nhospital" placeholder="Nome do Hospital" required>
+                            </div>
+
+
+                            <div class="input-box">
+                                <label for="cnpj">CNPJ </label>
+                                <input id="cnpj" type="text" name="cnpj" placeholder="XX. XXX. XXX/XXX-XX." required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="hnumber">Telefone</label>
+                                <input id="hnumber" type="tel" name="hnumber" placeholder="(xx) xxxx-xxxx" required>
+                            </div>
+                        
+                            
+                            <div class="input-box">
+                                <label for="hemail">E-mail</label>
+                                <input id="hemail" type="hemail" name="hemail" placeholder="Digite seu e-mail" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="hcep">CEP
+                                </label>
+                                <input id="hcep" type="text" name="hcep" placeholder="XXXXX-XXX" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="hendereco">Endereço</label>
+                                <input id="hendereco" type="text" name="hendereco" placeholder="Cidade, N°" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="hbairro">Bairro</label>
+                                <input id="hbairro" type="text" name="hbairro" placeholder="(xx) xxxx-xxxx" required>
+                            </div>
+
+                            <div class="custom-select">
+                                <label for="ufh">UF</label>
+                                <select required>
+                                    <option value="">Selecione o seu estado</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espirito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="hpassword">Senha</label>
+                                <input id="hpassword" type="password" name="hpassword" placeholder="Digite sua senha" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="hconfirmPassword">Confirme sua Senha</label>
+                                <input id="hconfirmPassword" type="password" name="hconfirmPassword" placeholder="Digite sua senha novamente" required>
+                            </div>
+                            
+                        </div>
+                    
+                    <div class="continue-button">
+                        <button><a href="../login/login.html">Continuar</a> </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
